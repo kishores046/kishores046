@@ -15,22 +15,25 @@
 
 ## 🧑‍💻 About Me
 
-```java
-@Component
-public class Kishore {
 
-    private final String name     = "Kishore S";
-    private final String role     = "Backend Developer";
-    private final String location = "Erode, Tamil Nadu, India 🇮🇳";
-    private final String college  = "Velalar College of Engineering & Technology (CGPA: 9.20)";
+```bash
+$ whoami
+  Kishore S — Backend Developer
 
-    private final List<String> currentlyWorkingOn = List.of(
-        "dyslexia-prison-backend (Spring Boot + JWT Auth)",
-        "Mastering JJWT 0.12.x & OAuth2 flows"
-    );
+$ cat profile.txt
+  📍 Erode, Tamil Nadu, India
+  🎓 Velalar College of Engineering & Technology  
+  💼 Intern @ Infosys SpringBoard(Dec 2025-Jan 2026)
 
-    private final String motto = "Projects over promises 🚀";
-}
+$ skills --list
+  Languages  : Java
+  Frameworks : Spring Boot, Spring Security, Spring Data JPA
+  Auth       : JWT, OAuth2, RBAC
+  Databases  : MySQL, PostgreSQL, H2
+  Tools      : Git, Maven, Postman, IntelliJ, Swagger
+
+$ echo $MOTTO
+  "Projects over promises 🚀"
 ```
 
 ---
@@ -91,13 +94,19 @@ public class Kishore {
 
 <div align="center">
 
+<!-- Using github-stats.vercel.app as reliable alternative -->
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kishores046&theme=tokyonight" />
+
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=kishores046&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
+      <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kishores046&theme=tokyonight" />
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kishores046&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+      <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kishores046&theme=tokyonight" />
+    </td>
+    <td>
+      <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kishores046&theme=tokyonight" />
     </td>
   </tr>
 </table>
