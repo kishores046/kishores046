@@ -22,9 +22,13 @@ public class Kishore {
     private final String name     = "Kishore S";
     private final String role     = "Backend Developer";
     private final String location = "Erode, Tamil Nadu, India 🇮🇳";
-    private final String college  = "Velalar College of Engineering & Technology ";
+    private final String college  = "Velalar College of Engineering & Technology (CGPA: 9.20)";
 
-   
+    private final List<String> currentlyWorkingOn = List.of(
+        "dyslexia-prison-backend (Spring Boot + JWT Auth)",
+        "Mastering JJWT 0.12.x & OAuth2 flows"
+    );
+
     private final String motto = "Projects over promises 🚀";
 }
 ```
@@ -87,31 +91,34 @@ public class Kishore {
 
 <div align="center">
 
-![Kishore's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kishores046&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=kishores046&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kishores046&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+    </td>
+  </tr>
+</table>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kishores046&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=kishores046&theme=tokyonight&hide_border=true)
+<img src="https://streak-stats.demolab.com?user=kishores046&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
 
 </div>
 
 ---
 
-## 🐍 My Contributions!
+## 🐍 Watch My Contributions Get Eaten!
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/kishores046/kishores046/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kishores046/kishores046/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kishores046/kishores046/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/kishores046/kishores046/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
-
-> ⚙️ *To enable the snake animation, follow the setup steps below!*
-
----
-
-## 📈 Activity Graph
-
-[![My github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kishores046&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
