@@ -97,7 +97,7 @@ public class Kishore {
 
 ---
 
-## 🐍 Watch My Contributions Get Eaten!
+## 🐍 My Contributions!
 
 <div align="center">
 
@@ -111,7 +111,7 @@ public class Kishore {
 
 ## 📈 Activity Graph
 
-[![Kishore's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kishores046&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![My github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kishores046&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
