@@ -29,7 +29,7 @@ $ skills --list
   Languages  : Java
   Frameworks : Spring Boot, Spring Security, Spring Data JPA
   Auth       : JWT, OAuth2, RBAC
-  Databases  : MySQL, PostgreSQL, H2
+  Databases  : MySQL,H2
   Tools      : Git, Maven, Postman, IntelliJ, Swagger
 
 $ echo $MOTTO
@@ -52,7 +52,6 @@ $ echo $MOTTO
 
 ### Database
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![H2](https://img.shields.io/badge/H2_Database-0044B3?style=for-the-badge&logo=h2&logoColor=white)
 
 ### Tools & DevOps
@@ -70,14 +69,14 @@ $ echo $MOTTO
 
 ## 🚀 Featured Projects
 
-### 🌐 [Global IP Intelligence Platform](https://github.com/kishores046/Global-IP-Intelligence-Platform-Group-B)
+### 🌐 [Global IP Intelligence Platform](https://github.com/kishores046/GLOBAL-IP)
 > Full-stack IP monitoring & analytics platform — **Backend Lead**
 
-- 🔗 Integrated USPTO, EPO, WIPO, TMView, PatentsView APIs with normalized aggregation
-- ⚡ Caffeine caching + async processing → **~60% reduction in external API latency**
-- 🔐 JWT (access/refresh tokens) + OAuth2 (Google/GitHub) + RBAC with admin-approved role escalation
-- 📊 Subscription-based alerts, admin dashboards, usage analytics
-- ☁️ Deployed on **Render** (backend) + **Vercel** (frontend)
+- 🌍 Built a full-stack IP monitoring platform enabling patent & trademark search, competitor tracking, legal status monitoring, and IP landscape visualization through integration with **USPTO, EPO, WIPO, and PatentsView** APIs
+- ⚡ Architected Spring Boot services with normalized API aggregation, async processing, pagination strategies, and **Caffeine caching** — reducing external API latency by **~60%**
+- 🔐 Implemented secure **RBAC** using JWT+ OAuth2 (Google/GitHub) with admin-approved role escalation and scoped API key access for third-party integrations
+- 🔔 Developed subscription-based alert system for filing & legal status updates, along with admin dashboards for user activity monitoring, API health tracking, and usage analytics
+- ☁️ Deployed production-ready backend on **Render** and frontend on **Vercel** with environment-based config and **PostgreSQL** persistence
 
 ---
 
@@ -117,7 +116,7 @@ $ echo $MOTTO
 
 ---
 
-## 🐍 Watch My Contributions Get Eaten!
+## 🐍My Contributions!
 
 <div align="center">
 
