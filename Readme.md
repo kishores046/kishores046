@@ -132,8 +132,6 @@ $ echo $MOTTO
 
 <div align="center">
 
-![Visitor Count](https://komarev.com/ghpvc/?username=kishores046&color=blueviolet&style=for-the-badge&label=Profile+Views)
-
 *"Projects over promises"* ☕
 
 </div>
