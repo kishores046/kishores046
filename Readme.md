@@ -30,7 +30,7 @@ $ skills --list
   Frameworks : Spring Boot, Spring Security, Spring Data JPA
   Auth       : JWT, OAuth2, RBAC
   Databases  : MySQL,H2
-  Tools      : Git, Maven, Postman, IntelliJ, Swagger
+  Tools      : Git, Maven, Docker, Postman, IntelliJ
 
 $ echo $MOTTO
   "Projects over promises 🚀"
@@ -54,12 +54,17 @@ $ echo $MOTTO
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![H2](https://img.shields.io/badge/H2_Database-0044B3?style=for-the-badge&logo=h2&logoColor=white)
 
-### Tools & DevOps
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### Build Tools
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+
+### DevOps
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Development Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
 ### Testing
 ![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
