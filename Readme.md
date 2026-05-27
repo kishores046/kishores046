@@ -30,7 +30,7 @@ $ skills --list
   Frameworks : Spring Boot, Spring Security, Spring Data JPA
   Auth       : JWT, OAuth2, RBAC
   Databases  : MySQL,H2
-  Tools      : Git, Maven, Docker, Postman, IntelliJ
+  Tools      : Git, Maven, Linux, Docker, Postman, IntelliJ
 
 $ echo $MOTTO
   "Projects over promises 🚀"
