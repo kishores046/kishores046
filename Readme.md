@@ -15,27 +15,43 @@
 
 ## 🧑‍💻 About Me
 
-
 ```bash
 $ whoami
   Kishore S — Backend Developer
 
 $ cat profile.txt
   📍 Erode, Tamil Nadu, India
-  🎓 Velalar College of Engineering & Technology  
-  💼 Intern @ Infosys SpringBoard(Dec 2025-Jan 2026)
+  🎓 Velalar College of Engineering & Technology
+  💼 Backend Developer Intern @ Infosys SpringBoard (Dec 2025 – Jan 2026)
 
 $ skills --list
-  Languages             : Java , C
+  Languages             : Java, C
   Frameworks            : Spring Boot, Spring Security, Spring Data JPA
   Auth                  : JWT, OAuth2, RBAC
-  Databases             : MySQL,H2
+  Databases             : MySQL, H2, PostgreSQL
   Server Side Rendering : Thymeleaf
   Tools                 : Git, Maven, Linux, Docker, Postman, IntelliJ
+
+$ currently_learning --list
+  Linux      (DevOps foundation — shell scripting, process management)
+  Docker     (containerization & service orchestration)
+  Nginx      (reverse proxy & web server config)
 
 $ echo $MOTTO
   "Projects over promises 🚀"
 ```
+
+---
+
+## 💼 Experience
+
+### Backend Developer Intern — Infosys SpringBoard
+📅 Dec 2025 – Jan 2026
+
+- Designed and architected the entire backend for the **Global IP Intelligence Platform** as the Backend Lead on a full-stack team project
+- Designed a **modular monolith** architecture with clear domain separation across IP search, alerts, analytics, and admin modules
+- Implemented **Caffeine caching**, async processing, and normalized API aggregation across USPTO, EPO, WIPO, and PatentsView — reducing external API latency by **~60%**
+- Led all backend decisions: auth (JWT + OAuth2 + RBAC), deployment (Render + PostgreSQL), and third-party API integration strategy
 
 ---
 
@@ -56,14 +72,16 @@ $ echo $MOTTO
 
 ### Database
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![H2](https://img.shields.io/badge/H2_Database-0044B3?style=for-the-badge&logo=h2&logoColor=white)
 
 ### Build Tools
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 
-### DevOps
+### DevOps & OS
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
 ### Development Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -79,11 +97,12 @@ $ echo $MOTTO
 ## 🚀 Featured Projects
 
 ### 🌐 [Global IP Intelligence Platform](https://github.com/kishores046/GLOBAL-IP)
-> Full-stack IP monitoring & analytics platform — **Backend Lead**
+> Full-stack IP monitoring & analytics platform — **Backend Lead** · *Infosys SpringBoard Internship Project*
 
-- 🌍 Built a full-stack IP monitoring platform enabling patent & trademark search, competitor tracking, legal status monitoring, and IP landscape visualization through integration with **USPTO, EPO, WIPO, and PatentsView** APIs
+- 🏗️ Designed the overall backend architecture as a **modular monolith** with domain-separated modules for search, alerts, analytics, and admin
+- 🌍 Built IP monitoring features covering patent & trademark search, competitor tracking, legal status monitoring, and landscape visualization via **USPTO, EPO, WIPO, and PatentsView** APIs
 - ⚡ Architected Spring Boot services with normalized API aggregation, async processing, pagination strategies, and **Caffeine caching** — reducing external API latency by **~60%**
-- 🔐 Implemented secure **RBAC** using JWT+ OAuth2 (Google/GitHub) with admin-approved role escalation and scoped API key access for third-party integrations
+- 🔐 Implemented secure **RBAC** using JWT + OAuth2 (Google/GitHub) with admin-approved role escalation and scoped API key access for third-party integrations
 - 🔔 Developed subscription-based alert system for filing & legal status updates, along with admin dashboards for user activity monitoring, API health tracking, and usage analytics
 - ☁️ Deployed production-ready backend on **Render** and frontend on **Vercel** with environment-based config and **PostgreSQL** persistence
 
@@ -92,9 +111,9 @@ $ echo $MOTTO
 ### 🎮 Real-Time Hangman Game
 > Concurrent multiplayer TCP game server in pure Java
 
-- 🔄 Multi-client TCP server with Java Socket API
-- 💾 Session persistence — resume game after disconnection
-- 📡 Custom request-response protocol with validation & error handling
+- 🔄 Multi-client TCP server built with Java Socket API supporting concurrent game sessions
+- 💾 Session persistence — players can resume games after disconnection
+- 📡 Custom request-response protocol with input validation and error handling
 
 ---
 
@@ -102,7 +121,6 @@ $ echo $MOTTO
 
 <div align="center">
 
-<!-- Using github-stats.vercel.app as reliable alternative -->
 <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kishores046&theme=tokyonight" />
 
 <table>
@@ -125,7 +143,7 @@ $ echo $MOTTO
 
 ---
 
-## 🐍My Contributions!
+## 🐍 My Contributions!
 
 <div align="center">
 
