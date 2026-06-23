@@ -108,12 +108,22 @@ $ echo $MOTTO
 
 ---
 
-### 🎮 Real-Time Hangman Game
-> Concurrent multiplayer TCP game server in pure Java
+### 🎮 [Real-Time Hangman Game](https://github.com/kishores046/HangmanCLI.git)
+>Concurrent multiplayer TCP game server built entirely with Core Java.
+>Tech Stack: Java 17 · TCP Sockets · Thread Pools · MySQL 8 · JDBC · SHA-256 Password Hashing
 
-- 🔄 Multi-client TCP server built with Java Socket API supporting concurrent game sessions
-- 💾 Session persistence — players can resume games after disconnection
-- 📡 Custom request-response protocol with input validation and error handling
+A terminal-based Hangman platform supporting single-player and real-time multiplayer gameplay. Players can register accounts, compete through matchmaking, earn time-based scores, and appear on a persistent leaderboard backed by MySQL.
+
+**Highlights**
+-Implemented a custom TCP application protocol using signal-based messages (INPUT_USERNAME, AUTH_SUCCESS, MATCH_OVER, etc.) to coordinate client-server interaction over a single socket connection.
+-Built real-time 1v1 matchmaking using a BlockingQueue producer-consumer design with a dedicated matchmaking thread.
+-Designed separate executors for client handling, session orchestration, and game-engine execution to avoid thread starvation while coordinating concurrent matches with CompletableFuture.
+-Implemented persistent player statistics, authentication, leaderboard ranking, and random category-based word selection using JDBC and MySQL.
+-Eliminated concurrent registration race conditions using atomic INSERT ... ON DUPLICATE KEY UPDATE database operations.
+-Added time-based scoring, multiplayer competition, and leaderboard tracking to create a competitive gameplay experience.
+
+`Architecture`
+Client → TCP Socket → ClientHandler → Matchmaking / Session Layer → Hangman Engine → JDBC DAO Layer → MySQL
 
 ---
 
