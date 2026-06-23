@@ -32,11 +32,6 @@ $ skills --list
   Server Side Rendering : Thymeleaf
   Tools                 : Git, Maven, Linux, Docker, Postman, IntelliJ
 
-$ currently_learning --list
-  Linux      (DevOps foundation — shell scripting, process management)
-  Docker     (containerization & service orchestration)
-  Nginx      (reverse proxy & web server config)
-
 $ echo $MOTTO
   "Projects over promises 🚀"
 ```
@@ -115,12 +110,12 @@ $ echo $MOTTO
 A terminal-based Hangman platform supporting single-player and real-time multiplayer gameplay. Players can register accounts, compete through matchmaking, earn time-based scores, and appear on a persistent leaderboard backed by MySQL.
 
 **Highlights**
--Implemented a custom TCP application protocol using signal-based messages (INPUT_USERNAME, AUTH_SUCCESS, MATCH_OVER, etc.) to coordinate client-server interaction over a single socket connection.
--Built real-time 1v1 matchmaking using a BlockingQueue producer-consumer design with a dedicated matchmaking thread.
--Designed separate executors for client handling, session orchestration, and game-engine execution to avoid thread starvation while coordinating concurrent matches with CompletableFuture.
--Implemented persistent player statistics, authentication, leaderboard ranking, and random category-based word selection using JDBC and MySQL.
--Eliminated concurrent registration race conditions using atomic INSERT ... ON DUPLICATE KEY UPDATE database operations.
--Added time-based scoring, multiplayer competition, and leaderboard tracking to create a competitive gameplay experience.
+- Implemented a custom TCP application protocol using signal-based messages (INPUT_USERNAME, AUTH_SUCCESS, MATCH_OVER, etc.) to coordinate client-server interaction over a single socket connection.
+- Built real-time 1v1 matchmaking using a BlockingQueue producer-consumer design with a dedicated matchmaking thread.
+- Designed separate executors for client handling, session orchestration, and game-engine execution to avoid thread starvation while coordinating concurrent matches with CompletableFuture.
+- Implemented persistent player statistics, authentication, leaderboard ranking, and random category-based word selection using JDBC and MySQL.
+- Eliminated concurrent registration race conditions using atomic INSERT ... ON DUPLICATE KEY UPDATE database operations.
+- Added time-based scoring, multiplayer competition, and leaderboard tracking to create a competitive gameplay experience.
 
 `Architecture`
 Client → TCP Socket → ClientHandler → Matchmaking / Session Layer → Hangman Engine → JDBC DAO Layer → MySQL
