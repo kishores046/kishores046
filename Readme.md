@@ -30,7 +30,7 @@ $ skills --list
   Auth                  : JWT, OAuth2, RBAC
   Databases             : MySQL, H2, PostgreSQL
   Server Side Rendering : Thymeleaf
-  Tools                 : Git, Maven, Linux, Docker, Postman, IntelliJ
+  Tools                 : Git, Maven, Linux, Docker, Nginx , Postman, IntelliJ
 
 $ echo $MOTTO
   "Projects over promises 🚀"
