@@ -106,22 +106,48 @@ $ echo $MOTTO
 
 ---
 
-### 🎮 [Real-Time Hangman Game](https://github.com/kishores046/HangmanCLI.git)
->Concurrent multiplayer TCP game server built entirely with Core Java.
->Tech Stack: Java 17 · TCP Sockets · Thread Pools · MySQL 8 · JDBC · SHA-256 Password Hashing
+## 🎮 Real-Time Hangman Game
 
-A terminal-based Hangman platform supporting single-player and real-time multiplayer gameplay. Players can register accounts, compete through matchmaking, earn time-based scores, and appear on a persistent leaderboard backed by MySQL.
+**A concurrent multiplayer terminal-based Hangman game built entirely with Core Java.**
 
-**Highlights**
-- Implemented a custom TCP application protocol using signal-based messages (INPUT_USERNAME, AUTH_SUCCESS, MATCH_OVER, etc.) to coordinate client-server interaction over a single socket connection.
-- Built real-time 1v1 matchmaking using a BlockingQueue producer-consumer design with a dedicated matchmaking thread.
-- Designed separate executors for client handling, session orchestration, and game-engine execution to avoid thread starvation while coordinating concurrent matches with CompletableFuture.
-- Implemented persistent player statistics, authentication, leaderboard ranking, and random category-based word selection using JDBC and MySQL.
-- Eliminated concurrent registration race conditions using atomic INSERT ... ON DUPLICATE KEY UPDATE database operations.
-- Added time-based scoring, multiplayer competition, and leaderboard tracking to create a competitive gameplay experience.
+A TCP-based multiplayer game server supporting single-player and real-time 1v1 gameplay, with authentication, matchmaking, chat, persistent player statistics, leaderboards, match history, and movie plot hints.
 
-`Architecture`
-Client → TCP Socket → ClientHandler → Matchmaking / Session Layer → Hangman Engine → JDBC DAO Layer → MySQL
+### ⚡ Highlights
+
+- Built a **custom text-based application protocol over TCP sockets** for client-server communication.
+- Implemented **real-time 1v1 matchmaking** using a thread-safe `LinkedBlockingQueue` and dedicated matchmaking thread.
+- Designed separate **ExecutorService thread pools** for client handling, game sessions, and Hangman engine execution.
+- Used **CompletableFuture** to coordinate concurrent multiplayer game execution.
+- Implemented a layered **DAO architecture using JDBC and MySQL** for authentication, player statistics, leaderboards, and match history.
+- Added **HikariCP connection pooling** for efficient database connection reuse.
+- Implemented **Caffeine caching** for movie plot hints, reducing repeated external API calls.
+- Added **BCrypt password hashing** with automatic migration from legacy SHA-256 passwords.
+- Implemented **real-time multiplayer chat over the existing TCP connection**.
+- Added **UDP-based LAN server discovery** for automatic server discovery on local networks.
+- Integrated the **OMDb API** to provide movie plot hints without directly revealing the word.
+- Containerized the server and MySQL database using **Docker Compose**.
+- Deployed the production game server on **AWS EC2** with a **static Elastic IP** for stable internet connectivity.
+- Externalized database, server, and API configuration using **environment variables**.
+
+### 🏗️ Architecture
+
+```text
+Client
+   ↓
+TCP Socket
+   ↓
+ClientHandler
+   ↓
+Authentication
+   ↓
+Matchmaking / Session
+   ↓
+Hangman Game Engine
+   ↓
+DAO Layer
+   ↓
+MySQL
+```
 
 ---
 
