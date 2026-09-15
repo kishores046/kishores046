@@ -105,7 +105,7 @@ $ echo $MOTTO
 
 ---
 
-## 🎮 Real-Time Hangman Game
+## 🎮 [Real-Time Hangman Game](https://github.com/kishores046/HangmanCLI)
 
 **A concurrent multiplayer terminal-based Hangman game built entirely with Core Java.**
 
