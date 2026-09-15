@@ -41,7 +41,7 @@ $ echo $MOTTO
 ## 💼 Experience
 
 ### Full Stack Developer Intern (Backend Role) — Infosys SpringBoard
-📅 Dec 2025 – Jan 2026
+📅 Nov 2025 – Feb 2026
 
 - Designed and architected the entire backend for the **Global IP Intelligence Platform** as the Backend Lead on a full-stack team project
 - Designed a **modular monolith** architecture with clear domain separation across IP search, alerts, analytics, and admin modules
